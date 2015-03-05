@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>piskel</id>
+    <title>piskel - Pixel Art and Animated Sprites</title>
+    <version>0.4.2</version>
+    <authors>juliandescottes grosbouddha</authors>
+    <owners>Thurston Stone</owners>
+    <summary>piskel</summary>
+    <description>
+    Remember the good old 2D games and their beautiful sprites? With Piskel you can create your own in a few clicks.
+
+    Note: Chocolatey install scripts are located here: https://github.com/tstone2077/piskel.chocolatey
+    </description>
+    <projectUrl>http://www.piskelapp.com/</projectUrl>
+    <tags>pixel pixelart animation editing</tags>
+    <licenseUrl>https://github.com/juliandescottes/piskel#licensing</licenseUrl>
+    <iconUrl>http://www.piskelapp.com/static/resources/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
